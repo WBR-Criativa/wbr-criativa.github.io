@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wbr Criativa | Papelaria Personalizada feita à mão em Pirituba – SP</title>
+<meta name="description" content="Cadernetas de saúde, cadernos com nome, agendas e identidade visual feitos à mão em Pirituba, São Paulo. Produção por encomenda e envio para todo o Brasil. Peça seu orçamento pelo WhatsApp.">
+<meta name="theme-color" content="#F27BAA">
+<link rel="icon" href="img/favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Wbr Criativa – Papelaria Personalizada feita à mão">
+<meta property="og:description" content="Peças únicas por encomenda em Pirituba (SP), com envio para todo o Brasil.">
+<meta property="og:image" content="img/caderneta-hugo.jpg">
+<meta property="og:locale" content="pt_BR">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Store","name":"Wbr Criativa","description":"Papelaria personalizada feita à mão, por encomenda, com envio para todo o Brasil.","image":"img/logo.jpg","address":{"@type":"PostalAddress","addressLocality":"São Paulo","addressRegion":"SP","streetAddress":"Pirituba","addressCountry":"BR"},"areaServed":"BR","sameAs":["https://www.instagram.com/wbr.criativa/"],"makesOffer":[{"@type":"Offer","itemOffered":{"@type":"Product","name":"Caderneta de saúde personalizada"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Caderno personalizado com nome"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Identidade visual e papelaria para empresas"}}]}
+</script>
+<style>
+:root{--rosa:#F27BAA;--rosa-esc:#C93E78;--rosa-cl:#FFE6F0;--ceu:#BDEBF7;--ceu-esc:#1F4E8C;--creme:#FFF8F3;--mel:#F6D98B;--tinta:#2A2440;--cinza:#6B6480;--borda:#EEDDE6}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Nunito,system-ui,sans-serif;color:var(--tinta);background:var(--creme);overflow-x:hidden;line-height:1.6;font-size:17px}
+img{max-width:100%;display:block}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.12;letter-spacing:-.01em}
+h1{font-size:clamp(2.2rem,5.4vw,4rem)}
+h2{font-size:clamp(1.8rem,3.8vw,2.8rem);margin-bottom:.6rem}
+h3{font-size:1.25rem}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--ceu-esc);outline-offset:3px;border-radius:8px}
+.wrap{width:min(1180px,92%);margin:0 auto}
+section{padding:clamp(64px,9vw,110px) 0}
+.eyebrow{display:inline-block;font-weight:800;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--rosa-esc);margin-bottom:.8rem}
+.lead{color:var(--cinza);max-width:620px;font-size:1.08rem}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;min-height:48px;padding:.8rem 1.6rem;border-radius:999px;font-weight:800;text-decoration:none;border:2px solid transparent;cursor:pointer;font-size:1rem;transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-p{background:var(--rosa-esc);color:#fff;box-shadow:0 8px 22px -8px rgba(201,62,120,.6)}
+.btn-s{border-color:var(--tinta);color:var(--tinta);background:transparent}
+.btn svg{width:20px;height:20px}
+/* menu */
+header{position:fixed;inset:0 0 auto;z-index:50;background:rgba(255,248,243,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--borda)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{display:flex;align-items:center;gap:.6rem;text-decoration:none;font-family:Fraunces,serif;font-weight:800;font-size:1.35rem;color:var(--rosa-esc)}
+.logo img{width:46px;height:46px;border-radius:50%;object-fit:cover;object-position:28% 40%}
+.logo small{display:block;font-family:Nunito;font-size:.62rem;letter-spacing:.18em;color:var(--ceu-esc);font-weight:700}
+nav ul{display:flex;gap:1.8rem;list-style:none;align-items:center}
+nav ul a{text-decoration:none;font-weight:700}
+nav ul a:not(.btn):hover{color:var(--rosa-esc)}
+.menu-btn{display:none;background:none;border:0;width:48px;height:48px;cursor:pointer}
+.menu-btn span{display:block;width:24px;height:2px;background:var(--tinta);margin:5px auto;border-radius:2px}
+@media(max-width:900px){
+ .menu-btn{display:block}
+ nav ul{position:fixed;top:72px;left:0;right:0;flex-direction:column;background:var(--creme);padding:1.5rem;gap:1.2rem;border-bottom:1px solid var(--borda);transform:translateY(-130%);transition:transform .3s;z-index:-1}
+ nav ul.open{transform:none}
+}
+/* hero */
+.hero{padding-top:130px;position:relative}
+.hero::before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;background:var(--rosa-cl);top:60px;right:-160px;z-index:-1}
+.hero::after{content:"";position:absolute;width:260px;height:260px;border-radius:50%;background:var(--ceu);bottom:20px;left:-90px;z-index:-1;opacity:.6}
+.hero-g{display:grid;grid-template-columns:1.05fr .95fr;gap:3rem;align-items:center}
+.hero-g>*{min-width:0}
+.hero h1 em{font-style:italic;color:var(--rosa-esc)}
+.hero p.lead{margin:1.2rem 0 2rem}
+.ctas{display:flex;gap:.8rem;flex-wrap:wrap}
+.provas{display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;margin-top:2rem;font-weight:700;font-size:.95rem;color:var(--ceu-esc)}
+.provas span{display:flex;align-items:center;gap:.4rem}
+.provas svg{width:18px;height:18px;flex:none}
+.hero-vis{position:relative;aspect-ratio:1/1}
+.hero-vis .a{position:absolute;inset:0 18% 14% 0;border-radius:28px;overflow:hidden;box-shadow:0 30px 60px -25px rgba(42,36,64,.45);transform:rotate(-3deg)}
+.hero-vis .b{position:absolute;width:52%;right:0;bottom:0;border-radius:22px;overflow:hidden;border:6px solid #fff;box-shadow:0 20px 40px -20px rgba(42,36,64,.5);transform:rotate(4deg)}
+.hero-vis img{width:100%;height:100%;object-fit:cover}
+.selo{position:absolute;top:6%;right:4%;background:var(--mel);border-radius:50%;width:110px;height:110px;display:grid;place-items:center;text-align:center;font-family:Fraunces;font-weight:800;font-size:.9rem;line-height:1.15;transform:rotate(10deg);box-shadow:0 10px 25px -12px rgba(0,0,0,.35)}
+/* dores */
+.cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem;margin-top:2.5rem}
+.cards3>*{min-width:0}
+.card{background:#fff;border:1px solid var(--borda);border-radius:20px;padding:1.8rem}
+.ico{width:52px;height:52px;border-radius:16px;display:grid;place-items:center;background:var(--rosa-cl);color:var(--rosa-esc);margin-bottom:1rem}
+.ico svg{width:26px;height:26px}
+.card p{color:var(--cinza);margin-top:.4rem}
+.passos{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem;margin-top:3rem;counter-reset:p}
+.passos>*{min-width:0}
+.passo{position:relative;padding:1.8rem;border-radius:20px;background:var(--ceu-esc);color:#fff}
+.passo::before{counter-increment:p;content:counter(p);font-family:Fraunces;font-size:3rem;font-weight:800;color:var(--mel);line-height:1}
+.passo h3{margin:.6rem 0 .3rem}
+.passo p{opacity:.88}
+/* portfolio */
+.port{background:#fff}
+.grid-port{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;margin-top:2.5rem}
+.grid-port>*{min-width:0}
+.item{border-radius:20px;overflow:hidden;border:1px solid var(--borda);background:var(--creme)}
+.item .im{aspect-ratio:1/1;overflow:hidden}
+.item img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.item:hover img{transform:scale(1.05)}
+.item div.t{padding:1rem 1.2rem}
+.item b{display:block}
+.item span{font-size:.9rem;color:var(--cinza)}
+.nota{margin-top:1.5rem;color:var(--cinza);font-size:.95rem}
+/* servicos */
+.planos{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem;margin-top:2.5rem;align-items:stretch}
+.planos>*{min-width:0}
+.plano{background:#fff;border:1px solid var(--borda);border-radius:22px;padding:2rem;display:flex;flex-direction:column}
+.plano.dest{background:var(--rosa-cl);border-color:var(--rosa);position:relative;transform:translateY(-8px)}
+.tag{position:absolute;top:-14px;left:2rem;background:var(--rosa-esc);color:#fff;font-weight:800;font-size:.78rem;padding:.3rem .9rem;border-radius:999px}
+.preco{font-family:Fraunces;font-weight:800;font-size:1.4rem;color:var(--rosa-esc);margin:.4rem 0 1rem}
+.plano ul{list-style:none;margin-bottom:1.6rem;flex:1}
+.plano li{padding:.4rem 0 .4rem 1.6rem;position:relative}
+.plano li::before{content:"";position:absolute;left:0;top:.85rem;width:10px;height:10px;border-radius:50%;background:var(--ceu-esc)}
+.bonus{margin-top:2rem;display:grid;grid-template-columns:auto 1fr;gap:1.4rem;align-items:center;background:var(--mel);border-radius:22px;padding:1.8rem 2rem}
+.bonus>*{min-width:0}
+.bonus .ico{background:#fff;margin:0}
+/* faq */
+.faq-l{max-width:820px;margin-top:2rem}
+details{background:#fff;border:1px solid var(--borda);border-radius:18px;padding:1.1rem 1.4rem;margin-bottom:.8rem}
+summary{cursor:pointer;font-weight:800;list-style:none;display:flex;justify-content:space-between;gap:1rem;min-height:28px}
+summary::after{content:"+";font-size:1.4rem;line-height:1;color:var(--rosa-esc);transition:transform .2s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{margin-top:.7rem;color:var(--cinza)}
+/* contato */
+.contato{background:var(--ceu-esc);color:#fff}
+.contato .lead{color:#DDE7F5}
+.contato .eyebrow{color:var(--mel)}
+.ct-g{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start}
+.ct-g>*{min-width:0}
+form{background:#fff;color:var(--tinta);border-radius:22px;padding:2rem;display:grid;gap:1rem}
+label{font-weight:700;font-size:.92rem;display:grid;gap:.35rem}
+input,select,textarea{font:inherit;font-size:16px;padding:.8rem 1rem;border:1px solid #D9CCD6;border-radius:14px;background:var(--creme);width:100%;min-height:48px}
+textarea{min-height:100px;resize:vertical}
+.ct-info{margin-top:2rem;display:grid;gap:.8rem}
+.ct-info div{display:flex;gap:.7rem;align-items:center}
+.ct-info svg{width:22px;height:22px;flex:none;color:var(--mel)}
+footer{padding:2.5rem 0;text-align:center;color:var(--cinza);font-size:.92rem}
+footer a{font-weight:700}
+.zap{position:fixed;right:20px;bottom:20px;width:60px;height:60px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 10px 25px -8px rgba(0,0,0,.4);z-index:60}
+.zap svg{width:32px;height:32px;color:#fff}
+.cta-band{text-align:center;margin-top:2.5rem}
+/* anim */
+.rv{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s}
+.rv.on{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}.btn,.item img{transition:none}}
+@media(max-width:1000px){.cards3,.passos,.grid-port,.planos{grid-template-columns:repeat(2,1fr)}.plano.dest{transform:none}}
+@media(max-width:820px){.hero-g,.ct-g{grid-template-columns:1fr}.hero-vis{max-width:480px;margin:0 auto;width:100%}}
+@media(max-width:620px){.cards3,.passos,.grid-port,.planos{grid-template-columns:1fr}.bonus{grid-template-columns:1fr}.selo{width:88px;height:88px;font-size:.75rem}form{padding:1.4rem}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <symbol id="i-zap" viewBox="0 0 24 24"><path fill="currentColor" d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5 2.5 1 3 .8 3.5.7.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></symbol>
+ <symbol id="i-ok" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></symbol>
+ <symbol id="i-mao" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></symbol>
+ <symbol id="i-caixa" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8 12 3 3 8v8l9 5 9-5V8z"/><path d="M3 8l9 5 9-5M12 13v8"/></symbol>
+ <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+ <symbol id="i-busca" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></symbol>
+ <symbol id="i-papel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/></symbol>
+ <symbol id="i-pres" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M12 8v13M3 12h18M12 8S10 3 7.5 4.5 9 8 12 8zm0 0s2-5 4.5-3.5S15 8 12 8z"/></symbol>
+ <symbol id="i-ig" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></symbol>
+</svg>
+
+<header>
+ <div class="wrap nav">
+  <a href="#topo" class="logo"><img src="img/logo.jpg" alt="Logo Wbr Criativa" width="46" height="46"><span>Wbr Criativa<small>PAPELARIA PERSONALIZADA</small></span></a>
+  <nav aria-label="Menu principal">
+   <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
+   <ul id="menu">
+    <li><a href="#como">Como funciona</a></li>
+    <li><a href="#trabalhos">Trabalhos</a></li>
+    <li><a href="#produtos">Produtos</a></li>
+    <li><a href="#duvidas">Dúvidas</a></li>
+    <li><a href="#orcamento" class="btn btn-p">Pedir orçamento</a></li>
+   </ul>
+  </nav>
+ </div>
+</header>
+
+<main id="topo">
+<section class="hero">
+ <div class="wrap hero-g">
+  <div class="rv">
+   <span class="eyebrow">Feito à mão em Pirituba · SP</span>
+   <h1>Papelaria com o <em>nome</em>, a história e o jeitinho de quem você ama</h1>
+   <p class="lead">Cadernetas de saúde, cadernos personalizados e papelaria para a sua marca — cada peça criada sob encomenda, montada à mão e enviada para todo o Brasil.</p>
+   <div class="ctas">
+    <a href="#orcamento" class="btn btn-p"><svg><use href="#i-zap"/></svg>Quero meu orçamento</a>
+    <a href="#trabalhos" class="btn btn-s">Ver trabalhos</a>
+   </div>
+   <div class="provas">
+    <span><svg><use href="#i-mao"/></svg>Feito à mão</span>
+    <span><svg><use href="#i-papel"/></svg>Arte exclusiva</span>
+    <span><svg><use href="#i-caixa"/></svg>Envio para todo o Brasil</span>
+   </div>
+  </div>
+  <div class="hero-vis rv">
+   <div class="a"><img src="img/caderneta-hugo.jpg" alt="Caderneta de saúde personalizada com ursinho aviador e o nome Hugo" width="900" height="900"></div>
+   <div class="b"><img src="img/cadernos-nome.jpg" alt="Cadernos personalizados com os nomes Maria Clara, Rebeca e Miguel" width="900" height="900"></div>
+   <div class="selo">Peça<br>única<br>pra você</div>
+  </div>
+ </div>
+</section>
+
+<section id="como">
+ <div class="wrap">
+  <div class="rv">
+   <span class="eyebrow">Por que personalizar</span>
+   <h2>Chega de papelaria igual a de todo mundo</h2>
+   <p class="lead">Um presente ou um item do dia a dia fica muito mais especial quando foi pensado só para aquela pessoa.</p>
+  </div>
+  <div class="cards3">
+   <div class="card rv"><div class="ico"><svg><use href="#i-busca"/></svg></div><h3>Nada com a sua cara</h3><p>Os modelos de loja são todos iguais e quase nunca têm o tema que a criança ama.</p></div>
+   <div class="card rv"><div class="ico"><svg><use href="#i-papel"/></svg></div><h3>A caderneta estraga</h3><p>A caderneta da criança vive amassada na bolsa. Uma capa dura protege documentos tão importantes.</p></div>
+   <div class="card rv"><div class="ico"><svg><use href="#i-pres"/></svg></div><h3>Presente sem graça</h3><p>Lembrança de chá de bebê, aniversário ou fim de ano que ninguém esquece precisa ter nome.</p></div>
+  </div>
+  <div class="passos">
+   <div class="passo rv"><h3>Conte sua ideia</h3><p>Chame no WhatsApp com o nome, o tema e o produto que você quer.</p></div>
+   <div class="passo rv"><h3>Aprove a arte</h3><p>Criamos a arte exclusiva e você aprova antes de ir para a produção.</p></div>
+   <div class="passo rv"><h3>Receba em casa</h3><p>Produzimos à mão com carinho e enviamos para qualquer lugar do Brasil.</p></div>
+  </div>
+  <div class="cta-band"><a href="#orcamento" class="btn btn-p"><svg><use href="#i-zap"/></svg>Começar meu pedido</a></div>
+ </div>
+</section>
+
+<section id="trabalhos" class="port">
+ <div class="wrap">
+  <div class="rv">
+   <span class="eyebrow">Trabalhos reais</span>
+   <h2>Algumas peças que saíram do nosso ateliê</h2>
+   <p class="lead">Cada uma foi feita sob encomenda, com tema e nome escolhidos pela cliente.</p>
+  </div>
+  <div class="grid-port">
+   <figure class="item rv"><div class="im"><img src="img/caderneta-hugo.jpg" alt="Capa de caderneta de saúde com ursinho aviador" loading="lazy" width="900" height="900"></div><figcaption class="t"><b>Caderneta de saúde – Ursinho aviador</b><span>Capa dura com nome e tema infantil</span></figcaption></figure>
+   <figure class="item rv"><div class="im"><img src="img/dados-nascimento.jpg" alt="Página interna Dados de nascimento com campos de dia, hora, peso e medida" loading="lazy" width="900" height="900"></div><figcaption class="t"><b>Páginas internas personalizadas</b><span>Dados de nascimento, foto e lembranças</span></figcaption></figure>
+   <figure class="item rv"><div class="im"><img src="img/caderneta-crianca.jpg" alt="Caderneta da Criança do Ministério da Saúde encadernada junto com páginas personalizadas" loading="lazy" width="900" height="900"></div><figcaption class="t"><b>Caderneta oficial encadernada</b><span>A caderneta do SUS protegida na sua capa</span></figcaption></figure>
+   <figure class="item rv"><div class="im"><img src="img/cadernos-nome.jpg" alt="Três cadernos com capas holográficas e nomes" loading="lazy" width="900" height="900"></div><figcaption class="t"><b>Cadernos com nome</b><span>Capa holográfica, tema à escolha</span></figcaption></figure>
+   <figure class="item rv"><div class="im"><img src="img/identidade-visual.jpg" alt="Sacola, bloco, lápis e certificado com a marca de uma lash designer" loading="lazy" width="900" height="900"></div><figcaption class="t"><b>Kit para empresas</b><span>Sacola, bloco, lápis e certificado com sua marca</span></figcaption></figure>
+   <figure class="item rv"><div class="im" style="background:var(--rosa-cl);display:grid;place-items:center;padding:2rem"><img src="img/logo.jpg" alt="Logo da Wbr Criativa" loading="lazy" width="900" height="900" style="height:auto;border-radius:18px"></div><figcaption class="t"><b>Seu tema, sua ideia</b><span>Times, personagens, cores — é só pedir</span></figcaption></figure>
+  </div>
+  <p class="nota">Veja muito mais no Instagram: <a href="https://www.instagram.com/wbr.criativa/" target="_blank" rel="noopener">@wbr.criativa</a></p>
+ </div>
+</section>
+
+<section id="produtos">
+ <div class="wrap">
+  <div class="rv">
+   <span class="eyebrow">O que fazemos</span>
+   <h2>Escolha o seu e peça o orçamento</h2>
+   <p class="lead">Os valores variam conforme tamanho, número de páginas e acabamento. Mande sua ideia que respondemos rapidinho.</p>
+  </div>
+  <div class="planos">
+   <div class="plano rv"><h3>Cadernos personalizados</h3><p class="preco">Sob orçamento</p><ul><li>Nome e tema à escolha</li><li>Capa dura, espiral</li><li>Opção de capa holográfica</li><li>Escola, agenda ou planner</li></ul><a href="#orcamento" class="btn btn-s" data-prod="Caderno personalizado">Pedir orçamento</a></div>
+   <div class="plano dest rv"><span class="tag">Mais pedido</span><h3>Caderneta de saúde</h3><p class="preco">Sob orçamento</p><ul><li>Capa com nome e tema do bebê</li><li>Encaderna a caderneta oficial do SUS</li><li>Páginas de dados de nascimento</li><li>Espaço para fotos e anotações</li></ul><a href="#orcamento" class="btn btn-p" data-prod="Caderneta de saúde">Pedir orçamento</a></div>
+   <div class="plano rv"><h3>Papelaria para empresas</h3><p class="preco">Sob orçamento</p><ul><li>Blocos e cadernos com logo</li><li>Sacolas e lápis personalizados</li><li>Certificados para cursos</li><li>Kits para alunas e clientes</li></ul><a href="#orcamento" class="btn btn-s" data-prod="Papelaria para empresa">Pedir orçamento</a></div>
+  </div>
+  <div class="bonus rv"><div class="ico"><svg><use href="#i-pres"/></svg></div><div><h3>Perfeito para presentear</h3><p>Chá de bebê, maternidade, aniversário, volta às aulas, fim de ano ou formatura de curso: conte a ocasião e montamos a peça pensando nela.</p></div></div>
+ </div>
+</section>
+
+<section id="duvidas" class="port">
+ <div class="wrap">
+  <div class="rv"><span class="eyebrow">Dúvidas</span><h2>Perguntas frequentes</h2></div>
+  <div class="faq-l rv">
+   <details><summary>Vocês enviam para fora de São Paulo?</summary><p>Sim! Produzimos em Pirituba (SP) e enviamos para todo o Brasil. O frete é calculado no orçamento conforme o seu CEP.</p></details>
+   <details><summary>Quanto tempo leva para ficar pronto?</summary><p>Tudo é feito à mão e sob encomenda, então o prazo depende do produto e da fila de pedidos. Informamos o prazo certinho no orçamento.</p></details>
+   <details><summary>Eu vejo a arte antes de produzir?</summary><p>Sim. Enviamos a arte para você aprovar antes da produção, assim a peça sai exatamente como você imaginou.</p></details>
+   <details><summary>Como funciona a caderneta de saúde?</summary><p>Criamos uma capa personalizada e encadernamos a caderneta oficial da criança junto com páginas extras, como dados de nascimento e espaço para fotos.</p></details>
+   <details><summary>Fazem pedidos em quantidade para empresas e eventos?</summary><p>Fazemos! Kits com logo, lembrancinhas e certificados. Conte a quantidade e a data do evento no pedido.</p></details>
+  </div>
+ </div>
+</section>
+
+<section id="orcamento" class="contato">
+ <div class="wrap ct-g">
+  <div class="rv">
+   <span class="eyebrow">Orçamento sem compromisso</span>
+   <h2>Vamos criar a sua peça?</h2>
+   <p class="lead">Preencha em 30 segundos — a mensagem já vai pronta para o nosso WhatsApp.</p>
+   <div class="ct-info">
+    <div><svg><use href="#i-pin"/></svg>Pirituba, São Paulo – SP</div>
+    <div><svg><use href="#i-caixa"/></svg>Envio para todo o Brasil</div>
+    <div><svg><use href="#i-ig"/></svg><a href="https://www.instagram.com/wbr.criativa/" target="_blank" rel="noopener">@wbr.criativa</a></div>
+   </div>
+  </div>
+  <form id="form" class="rv">
+   <label>Seu nome<input name="nome" required autocomplete="name"></label>
+   <label>Produto
+    <select name="prod" id="prod"><option>Caderneta de saúde</option><option>Caderno personalizado</option><option>Papelaria para empresa</option><option>Outro / ainda não sei</option></select>
+   </label>
+   <label>Nome na peça e tema<input name="tema" placeholder="Ex.: Helena – ursinha balão"></label>
+   <label>Cidade / estado<input name="cidade" autocomplete="address-level2"></label>
+   <label>Algum detalhe?<textarea name="obs" placeholder="Ocasião, quantidade, data que precisa..."></textarea></label>
+   <button class="btn btn-p" type="submit"><svg><use href="#i-zap"/></svg>Enviar pelo WhatsApp</button>
+  </form>
+ </div>
+</section>
+</main>
+
+<footer><div class="wrap">© <span id="ano"></span> Wbr Criativa · Papelaria personalizada feita à mão · Pirituba, São Paulo – SP · <a href="https://www.instagram.com/wbr.criativa/" target="_blank" rel="noopener">Instagram</a></div></footer>
+<a class="zap" id="zapflut" href="#" target="_blank" rel="noopener" aria-label="Falar no WhatsApp"><svg><use href="#i-zap"/></svg></a>
+
+<script>
+const WHATSAPP = "5511900000000"; // TROCAR pelo número real (55 + DDD + número)
+const link = t => "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(t);
+document.getElementById("ano").textContent = new Date().getFullYear();
+document.getElementById("zapflut").href = link("Olá, Wbr Criativa! Vim pelo site e quero um orçamento.");
+const mb = document.querySelector(".menu-btn"), menu = document.getElementById("menu");
+mb.addEventListener("click", () => { const o = menu.classList.toggle("open"); mb.setAttribute("aria-expanded", o); mb.setAttribute("aria-label", o ? "Fechar menu" : "Abrir menu"); });
+menu.querySelectorAll("a").forEach(a => a.addEventListener("click", () => { menu.classList.remove("open"); mb.setAttribute("aria-expanded", false); }));
+document.querySelectorAll("[data-prod]").forEach(b => b.addEventListener("click", () => document.getElementById("prod").value = b.dataset.prod));
+document.getElementById("form").addEventListener("submit", e => {
+ e.preventDefault(); const f = new FormData(e.target);
+ let t = `Olá, Wbr Criativa! Vim pelo site.\n\n*Nome:* ${f.get("nome")}\n*Produto:* ${f.get("prod")}`;
+ if (f.get("tema")) t += `\n*Nome/tema:* ${f.get("tema")}`;
+ if (f.get("cidade")) t += `\n*Cidade:* ${f.get("cidade")}`;
+ if (f.get("obs")) t += `\n*Detalhes:* ${f.get("obs")}`;
+ window.open(link(t), "_blank");
+});
+const io = new IntersectionObserver(es => es.forEach(x => { if (x.isIntersecting) { x.target.classList.add("on"); io.unobserve(x.target); } }), { threshold: .12 });
+document.querySelectorAll(".rv").forEach(el => io.observe(el));
+</script>
+</body>
+</html>
